@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #6a1b9a; 
+            color: #fff;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffccff; 
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: #fff;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        section h1, section h2 {
+            color: #6a1b9a; 
+        }
+
+        footer {
+            background-color: #6a1b9a;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        #scrollTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #6a1b9a;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        #scrollTopBtn:hover {
+            background: #4a148c; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Jornal Saúde Mental</div>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Quem somos</a></li>
+                <li><a href="ansiedade.html">Ansiedade</a></li>
+                <li><a href="depressao.html">Depressão</a></li>
+                <li><a href="impacto.html">Impacto na Sociedade</a></li>
+                <li><a href="tratamento.html">Tratamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Depoimentos Reais</h1>
+            <p>Aqui estão relatos de pessoas que enfrentaram a ansiedade e a depressão e conseguiram superar desafios com ajuda profissional e mudanças no estilo de vida.</p>
+        </section>
+        
+        <section>
+            <h2>Histórias Inspiradoras</h2>
+            <article>
+                <h3> Ana (Ansiedade)</h3>
+                <p>"Desde criança, sempre fui muito preocupada, mas depois que comecei a trabalhar, a ansiedade se intensificou. Pequenas coisas do dia a dia se tornaram grandes montanhas na minha cabeça. Antes de uma reunião, meu coração dispara, minhas mãos suam e sinto um nó na garganta. Evito ao máximo falar em público ou ir a eventos sociais com muitas pessoas, porque fico imaginando que todos estão me julgando. Às vezes, a preocupação é tanta que me paralisa e tenho dificuldade para dormir. Sei que muitas das minhas preocupações são irracionais, mas não consigo controlar. A terapia me ajudou a entender um pouco melhor meus gatilhos e a desenvolver algumas técnicas para lidar com a ansiedade nos momentos de crise."</p>
+            </article>
+            
+            <article>
+                <h3>Carlos (Depressão)</h3>
+                <p>"Houve uma época em que eu adorava sair com os amigos, praticar esportes e ir ao cinema. De repente, tudo perdeu a graça. Comecei a me sentir constantemente cansado, sem energia para fazer nada, nem mesmo as coisas que antes me davam prazer. Me isolei, parei de responder às mensagens e evitei o contato com as pessoas. Sentia uma tristeza profunda que não ia embora, um vazio inexplicável. Comecei a ter dificuldade para me concentrar no trabalho e a minha produtividade caiu muito. Cheguei a pensar que não havia mais sentido na vida. Foi muito difícil admitir que precisava de ajuda, mas procurar um médico e iniciar o tratamento com medicação e terapia foi o primeiro passo para começar a ver a luz novamente."</p>
+            </article>
+            
+            <article>
+                <h3>Sofia (Ansiedade e Depressão)</h3>
+                <p>"Para mim, a ansiedade e a depressão sempre andaram juntas. A ansiedade me deixa em constante estado de alerta, preocupada com o futuro e com medo de que algo ruim aconteça. Isso me causa um desgaste enorme, tanto físico quanto mental. A depressão, por sua vez, me tira a vontade de fazer as coisas, me deixa apática e desmotivada. Tem dias que a ansiedade me impede de sair da cama, com medo do que o dia pode trazer, e em outros, a falta de energia da depressão me mantém prostrada. É como viver em uma corda bamba constante. O tratamento tem sido um processo longo, com altos e baixos, mas sinto que estou aprendendo a equilibrar essas duas partes de mim e a construir uma vida mais estável."</p>
+            </article>
+        </section>
+        <section>
+            <p>É importante lembrar que cada experiência é única e que esses relatos ilustram apenas algumas das maneiras pelas quais a ansiedade e a depressão podem se manifestar. Buscar ajuda profissional é fundamental para um diagnóstico e tratamento adequados.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 - Jornal Saúde Mental | Informação para o bem-estar</p>
+    </footer>
+
+    <button id="scrollTopBtn" title="Voltar ao topo">↑</button>
+
+    <script>
+        
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollTopBtn.style.display = 'flex';
+            } else {
+                scrollTopBtn.style.display = 'none';
+            }
+        };
+
+    
+        scrollTopBtn.onclick = function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+    </script>
+</body>
+</html>
