@@ -1,196 +1,146 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jornal Saúde Mental | Bem-vindo</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap">
-    <style>
-        :root {
-            --primary-color: #6a1b9a;
-            --primary-dark: #4a148c;
-            --primary-light: #9c4dcc;
-            --secondary-color: #ffccff;
-            --white: #ffffff;
-            --light-gray: #f8f9fa;
-            --dark-gray: #343a40;
-        }
-
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--light-gray);
-            color: var(--dark-gray);
-            line-height: 1.6;
-        }
-
-        .hero-section {
-            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-            color: var(--white);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-            padding: 2rem;
-        }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80') no-repeat center center/cover;
-            opacity: 0.15;
-            z-index: 0;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            max-width: 800px;
-            padding: 2rem;
-        }
-
-        .logo {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            letter-spacing: 1px;
-            color: var(--white);
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        .tagline {
-            font-size: 1.2rem;
-            font-weight: 300;
-            margin-bottom: 2rem;
-            opacity: 0.9;
-        }
-
-        h1 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 3rem;
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            line-height: 1.2;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        .hero-text {
-            font-size: 1.25rem;
-            margin-bottom: 3rem;
-            max-width: 700px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            background-color: var(--white);
-            color: var(--primary-color);
-            padding: 1rem 2.5rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .cta-button:hover {
-            background-color: var(--secondary-color);
-            color: var(--primary-dark);
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-        }
-
-        .stats-container {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 3rem;
-            flex-wrap: wrap;
-        }
-
-        .stat-item {
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 1.5rem;
-            border-radius: 10px;
-            min-width: 150px;
-            backdrop-filter: blur(5px);
-        }
-
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-        }
-
-        .stat-label {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.2rem;
-            }
-            
-            .hero-text {
-                font-size: 1.1rem;
-            }
-            
-            .stats-container {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .stat-item {
-                min-width: auto;
-                padding: 1rem;
-            }
-        }
-    </style>
+    <title>Economic BRASIL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="" type="icon">
 </head>
+
 <body>
-    <div class="hero-section">
-        <div class="hero-content">
-            <div class="logo">JORNAL SAÚDE MENTAL</div>
-            <div class="tagline">Informação para o bem-estar</div>
-            
-            <h1>Conscientização e Cuidado em Saúde Mental</h1>
-            
-            <p class="hero-text">
-                Em um mundo onde a saúde mental afeta milhões, nosso jornal se dedica a fornecer informações confiáveis, 
-                combater estigmas e promover o diálogo sobre ansiedade, depressão e bem-estar emocional.
-            </p>
-            
-            <a href="ppag1.html" class="cta-button">ACESSAR CONTEÚDO</a>
-            
-            <div class="stats-container">
-                <div class="stat-item">
-                    <div class="stat-number">300M+</div>
-                    <div class="stat-label">Pessoas com ansiedade no mundo</div>
+    <header>
+        <img src="imgs/img2.png" class="logo">
+        <strong>ECONOMIA BRASIL</strong>
+    </header>
+    <div class="linha1">
+        <div class="boxmaior">
+            <div class="noticiaprincipal">
+                <img src="imgs/img1.avif" class="fotoprincipal">
+                <div class="texto">
+                    <h2>Dólar opera em queda e vai a R$ 5,67, com incertezas sobre tarifaço de Trump; Ibovespa sobe</h2>
+                    <p>Nesta quinta-feira (24), o dólar caiu devido à reação do mercado aos impactos do aumento de
+                        tarifas imposto pelo
+                        presidente dos EUA, Donald Trump, e à guerra tarifária com a China.</p>
+                    <br>
+                    <p>
+                        Isso é preocupante para investidores globalmente, já que os EUA são um parceiro comercial
+                        importante. A secretária de
+                        imprensa da Casa Branca afirmou que não haverá redução unilateral nas tarifas, enquanto a China
+                        negou negociações com os
+                        EUA. O Ibovespa, por sua vez, subiu.
+                    </p>
+                    <br>
+                    <p>
+                        Dados dos EUA indicam que o país já sente os efeitos dessas tarifas, com o Livro Bege do Federal
+                        Reserve mostrando
+                        aumento de preços e desaceleração na atividade econômica.
+                    </p>
+                    <a href="https://g1.globo.com/economia/noticia/2025/04/30/dolar-ibovespa.ghtml" target="_blank">
+                        <button>Leia mais</button>
+                    </a>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">12M</div>
-                    <div class="stat-label">Brasileiros com depressão</div>
+            </div>
+        </div>
+
+        <div class="boxcom3">
+            <div class="boxdireita">
+                <img src="imgs/img5.png">
+                <div>
+                    <h2>Tarifas de Trump: o que pode ocorrer com a economia do Brasil e do mundo?</h2>
+                    <p>Especialistas consultados pela CNN apontam que Brasil recebeu uma baixa taxa, de 10%, ante outros
+                        países, o que seria vantajoso para comércio exterior.</p>
+                    <a href="https://g1.globo.com/economia/noticia/2025/04/13/tarifas-de-trump-trazem-desafios-imediatos-para-o-brasil-mas-podem-gerar-oportunidades-apontam-economistas.ghtml"
+                        target="_blank">
+                        <button>Leia mais</button>
+                    </a>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">1T+</div>
-                    <div class="stat-label">Perdas anuais na economia</div>
+            </div>
+            <div class="boxdireita">
+                <img src="imgs/img4.png">
+                <div>
+                    <h2>“Prévia da inflação”: IPCA-15 desacelera a 0,43% em abril, diz IBGE</h2>
+                    <p>Expectativa de mercado era de 0,44%; alta havia sido de 0,64% em março; alimentos voltam a puxar
+                        índice.</p>
+                    <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/previa-da-inflacao-ipca-15-desacelera-a-043-em-abril-diz-ibge/"
+                        target="_blank">
+                        <button>Leia mais</button>
+                    </a>
+                </div>
+            </div>
+            <div class="boxdireita">
+                <img src="imgs/img3.png">
+                <div>
+                    <h2>Fraude no INSS: Governo já cancelou 2,3 mi de descontos de associações desde 2023.</h2>
+                    <p>O governo federal cancelou mais de 2,3 milhões de descontos feitos por entidades associativas de
+                        aposentados e pensionistas.</p>
+                    <a href="https://economia.uol.com.br/noticias/redacao/2025/04/25/fraude-no-inss-governo-lula-ja-cancelou-23-mi-de-descontos-de-associacoes.htm"
+                        target="_blank">
+                        <button>Leia mais</button>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+
+<div class="banner_linha2">
+    <a href="https://mottanet.com.br/" target="_blank">
+        <img src="imgs/img6.png" alt="">
+    </a>
+</div>
+
+    <div class="linha3">
+        <div class="caixinhas3">
+            <img src="imgs/img7.png" alt="Agro">
+            <div>
+                <h3>Agricultura do Brasil é saída para países em guerra tarifária, diz ministro</h3>
+                <p>À CNN, Paulo Teixeira afirmou que a agricultura brasileira passou a ser desejada "no mundo todo"
+                    depois das tarifas, e que o país vai suprir o fornecimento às nações mais afetadas.</p>
+                <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/agricultura-do-brasil-e-saida-para-paises-em-guerra-tarifaria-diz-ministro/"
+                    target="_blank">
+                    <button>Leia mais</button>
+                </a>
+            </div>
+        </div>
+        <div class="caixinhas3">
+            <img src="imgs/img8.png" alt="GAGA">
+            <div>
+                <h3>Show de Lady Gaga no Rio deve movimentar R$ 600 mi, dobro da Madonna</h3>
+                <p>Prefeitura do Rio estima 1,6 milhão de pessoas nas areias de Copacabana neste sábado (3).</p>
+                <a href="https://www.cnnbrasil.com.br/economia/negocios/show-de-lady-gaga-no-rio-deve-movimentar-r-600-mi-dobro-da-madonna/"
+                    target="_blank">
+                    <button>Leia mais</button>
+                </a>
+            </div>
+        </div>
+        <div class="caixinhas3">
+            <img src="imgs/img9.png" alt="YPF">
+            <div>
+                <h3>Argentina: YPF anuncia redução de 4% no preço dos combustíveis</h3>
+                <p>Decisão foi tomada após o “monitoramento constante de variáveis-chave” que influenciam a política de
+                    preços da companhia.</p>
+                <a href="https://www.cnnbrasil.com.br/economia/negocios/argentina-petroquimica-ypf-anuncia-nova-reducao-de-4-no-preco-dos-combustiveis/"
+                    target="_blank">
+                    <button>Leia mais</button>
+                </a>
+            </div>
+        </div>
+        <div class="caixinhas3">
+            <img src="imgs/img10.png" alt="ouro">
+            <div>
+                <h3>Ouro fecha em queda, com alívio nas tensões comerciais</h3>
+                <p>Contrato do ouro para entrega em junho fechou em queda de 0,42%, a US$ 3.333,60 por onça-troy.</p>
+                <a href="https://www.cnnbrasil.com.br/economia/mercado/ouro-fecha-em-queda-com-alivio-nas-tensoes-comerciais/"
+                    target="_blank">
+                    <button>Leia mais</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>todos os direitos autorais</p>
+    </footer>
 </body>
+
 </html>
